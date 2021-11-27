@@ -26,9 +26,8 @@ jobs:
       - uses: actions/checkout@v2
 
         # publishes as VS Code extensions
-      - name: Publish VS Code Extension
-        uses: HaaLeo/publish-vscode-extension@v0
-        with:
-          pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
-          registryUrl: https://marketplace.visualstudio.com
+      uses: sigma/vsce-publish-action@v0.0.2
+      with:
+        vsce_token: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+
 
