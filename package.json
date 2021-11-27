@@ -1,0 +1,61 @@
+{
+  "name": "web3-dev",
+  "displayName": "Web3 Dev Pack",
+  "description": "The Web3 Dev extension pack includes many great extensions and themes to get you started",
+  "version": "1.0.0",
+  "publisher": "0xModene",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xModene/web3-dev-pack"
+  },
+  "icon": "profile.png",
+  "galleryBanner": {
+    "color": "#061526",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Theme",
+    "Dark Theme",
+    "0xModene",
+    "Extensions",
+    "Pack",
+    "Snippets",
+    "Web3",
+    "crypto"
+  ],
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "gua.rainbow-brackets",
+    "christian-kohler.path-intellisense",
+    "dbankier.vscode-instant-markdown",
+    "eamodio.gitlens",
+    "eg2.vscode-npm-script",
+    "esbenp.prettier-vscode",
+    "pranaygp.vscode-css-peek",
+    "ryu1kn.remote-repo-viewer",
+    "shardulm94.trailing-spaces",
+    "techer.open-in-browser",
+    "wayou.vscode-todo-highlight",
+    "quicktype.quicktype",
+    "cssho.vscode-svgviewer",
+    "beaugunderson.solidity-extended",
+    "burkeholland.react-food-truck",
+    "wmaurer.vscode-jumpy",
+    "gottfired.css2react",
+    "dbaeumer.vscode-eslint",
+    "DavidAnson.vscode-markdownlint",
+    "dsznajder.es7-react-js-snippets",
+    "ecmel.vscode-html-css",
+    "zadvorny.theme-happy-hipster",
+    "azamuddin.calmness-vsc-theme",
+    "DryWolf.dark-plus-plus-theme",
+    "jolaleye.horizon-theme-vscode",
+    "seansassenrath.vscode-theme-superonedark",
+    "zacharyparrish.cozy-vsc-theme"
+  ]
+}
