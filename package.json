@@ -57,5 +57,11 @@
     "jolaleye.horizon-theme-vscode",
     "seansassenrath.vscode-theme-superonedark",
     "zacharyparrish.cozy-vsc-theme"
-  ]
+  ],
+  "scripts": {
+    "deploy": "vsce publish --yarn"
+  },
+  "devDependencies": {
+    "vsce": "^2.5.0"
+  }
 }
