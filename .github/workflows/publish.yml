@@ -26,8 +26,9 @@ jobs:
       - uses: actions/checkout@v2
 
         # publishes as VS Code extensions
-      uses: sigma/vsce-publish-action@v0.0.2
-      with:
-        vsce_token: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+        name: publishing to marketplace
+        uses: sigma/vsce-publish-action@v0.0.2
+        with:
+          vsce_token: ${{ secrets.VS_MARKETPLACE_TOKEN }}
 
 
