@@ -10,7 +10,7 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [macos-latest, ubuntu-latest, windows-latest]
+        os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - name: Checkout
@@ -19,12 +19,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 10.x
-      - run: yarn
-      - run: xvfb-run -a npm test
-        if: runner.os == 'Linux'
-      - run: yarn test
-        if: runner.os != 'Linux'
+      - run: npm install
       - name: Publish
-        run: yarn run deploy
+        run: npm run deploy
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
