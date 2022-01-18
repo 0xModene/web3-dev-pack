@@ -23,6 +23,7 @@ The Web3 Dev extension pack includes many great extensions, linters, snippets, a
 - [React Food Truck](https://marketplace.visualstudio.com/items?itemName=burkeholland.react-food-truck)
 - [jumpy](https://marketplace.visualstudio.com/items?itemName=wmaurer.vscode-jumpy)
 - [css2react](https://marketplace.visualstudio.com/items?itemName=gottfired.css2react)
+- [solidity](https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity)
 
 ### Linters
 
