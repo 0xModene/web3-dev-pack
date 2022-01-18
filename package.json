@@ -56,7 +56,8 @@
     "DryWolf.dark-plus-plus-theme",
     "jolaleye.horizon-theme-vscode",
     "seansassenrath.vscode-theme-superonedark",
-    "zacharyparrish.cozy-vsc-theme"
+    "zacharyparrish.cozy-vsc-theme",
+    "juanblanco.solidity"
   ],
   "scripts": {
     "deploy": "vsce publish --yarn"
