@@ -24,6 +24,7 @@ The Web3 Dev extension pack includes many great extensions, linters, snippets, a
 - [jumpy](https://marketplace.visualstudio.com/items?itemName=wmaurer.vscode-jumpy)
 - [css2react](https://marketplace.visualstudio.com/items?itemName=gottfired.css2react)
 - [solidity](https://marketplace.visualstudio.com/items?itemName=juanblanco.solidity)
+- [glean](https://marketplace.visualstudio.com/items?itemName=wix.glean)
 
 ### Linters
 

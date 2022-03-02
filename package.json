@@ -2,7 +2,7 @@
   "name": "web3-dev",
   "displayName": "Web3 Dev Pack",
   "description": "The Web3 Dev extension pack includes many great extensions and themes to get you started",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "publisher": "0xModene",
   "repository": {
     "type": "git",
@@ -57,7 +57,8 @@
     "jolaleye.horizon-theme-vscode",
     "seansassenrath.vscode-theme-superonedark",
     "zacharyparrish.cozy-vsc-theme",
-    "juanblanco.solidity"
+    "juanblanco.solidity",
+    "wix.glean"
   ],
   "scripts": {
     "deploy": "vsce publish --yarn"
